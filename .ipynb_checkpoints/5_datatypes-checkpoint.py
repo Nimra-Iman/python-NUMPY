@@ -1,17 +1,18 @@
 # Python datatypes: integer, string, float, boolean, complex
- 
+
 # Numpy datatypes:
 # i for integer 
-# b for boolean 
-# m for timedelta  
-# M for datetime 
-# f for float
-# O for object
-# c for complex float
-# S for string
+# b for boolean  
 # u for unsigned integer
+# f for float
+# c for complex float
+# m for timedelta  
+# M for datetime   
+# O for object
+# S for string
 # U for unicode string
 # V - memory
+
 # (ibmM fOcS uUV )
 
 # CHECKING DATATYPE OF NUMPY ARRAY:

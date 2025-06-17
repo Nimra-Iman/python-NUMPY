@@ -49,7 +49,6 @@ ddd=np.array([[[1,2,3,4,5],[6,7,8,9,10]],
 print(ddd[0:2,0:2,1:4])
 
 
-import numpy as np
 d_d_d=np.array([[[1,2,3],[4,5,6],[7,8,9],[10,11,12]]])
 print(d_d_d[0:3])   #is m poori array hi ouput m ay gi q k 1st comma s phly valy m hm
 # choose krty hn k kon c 2-D array select krni h , to yhan hm keh rhyn h k 0th 2-D array

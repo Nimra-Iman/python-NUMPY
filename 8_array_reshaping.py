@@ -12,7 +12,7 @@ y=x.reshape(2,2,3) #yani two 2-D arrays bnao or hr 2-D k ander two 1-D array ho 
 z=x.reshape(3,2,2) # yani three 2-D arrays bnao , hr 3-D k ander two 1-D yani two rows hu or
 # hr 1-D k ander 2 element hu yani 2 col hu (total ko 3 parts m divide kro, phir jo 
 # 3 parts ay un m s hr part ko 2 2 parts m mazeed divide kro or jo parts bny un m 2 2 elements dikhao )
-# print(y)
+print(y)
 # print(z)
 
 #  ERROR
@@ -55,7 +55,7 @@ print(ddd)
 
 #   !!!!!!!!!!!!!!  flattening rehsping yani 3-D to 1-D or 2-D to 1-D ...  !!!!!!!!!!
 dd=np.array([[1,2,3],
-             [4,5,6]]) #chahy yhan 100-D array hi q na ho, bas d=dd.reshape(-1) s 11-D m 
+             [4,5,6]]) #chahy yhan 100-D array hi q na ho, bas d=dd.reshape(-1) s 1-D m 
 # convert ho jay ggi
 d=dd.reshape(-1)
-print(d)
+print(d) 

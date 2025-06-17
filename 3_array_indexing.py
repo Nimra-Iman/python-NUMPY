@@ -13,6 +13,7 @@ dd=np.array([[22,33,44], #first row
 # # lie kr rha h)
 # print(dd[1,1]) #yani 1st row 1st column pr jo elemnt pra vo de do
 
+print(dd[0])  #0th row ful mil jay gi
 
 #  accessing 3-D (combing two 2-Ds)
 ddd=np.array([[[22,33,44],[21,31,41]], #[22,33,44] is 0th row and [21,31,41] is 1st row of 0th vala 2-D
