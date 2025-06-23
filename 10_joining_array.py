@@ -81,7 +81,7 @@ d0=np.array([4,5,6])
 d1=np.stack((d,d0),axis=1) #concatenate m axis=1 krny s dono arrays ki 0th 0th row mil
 # kr new array ki 0th row bnaty hn lekin stack m yhan pr ek ek index uth kr new array ki
 # 1st row bnata h
-# print(d1)
+print(d1)
 
 d=np.array([1,2,3])
 d0=np.array([4,5,6])

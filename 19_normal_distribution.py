@@ -1,15 +1,15 @@
 from numpy import random
 import seaborn as sns
 import matplotlib.pyplot as plt
-# d=random.normal(0.2,0.5,1000)   #ab normal distribution ka data show ho ga wjere 0.2(mean value)
+d=random.normal(0.2,0.5,1000)   #ab normal distribution ka data show ho ga wjere 0.2(mean value)
 #  0.5 is standard deviation and 1000 is total values in dataset
 # loc - (Mean) where the peak of the bell exists. (0.2 in this case)
 
 # scale - (Standard Deviation) how flat the graph distribution should be.(0.5 in this case)
 
 # size - The shape of the returned array.(1000 in this case)
-# sns.histplot(d,kde=True)
-# plt.show()
+sns.histplot(d,kde=True)
+plt.show()
 
 
 

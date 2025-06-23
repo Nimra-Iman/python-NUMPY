@@ -1,6 +1,9 @@
 # random--- something that cannot be predicted logically
 # import numpy as np
 # random_number=np.random.randint(100)
+
+# randint, rand, choice
+
 import numpy as np
 from numpy import random
 random_number=random.randint(100)  #yani 100 tak koi bhi random number generate kro
@@ -29,7 +32,8 @@ print(random_2_D)
 
 
 # generating an integer random 2-D array that contains 2 rows with random 2 elements from 0 to 99
-print(" generating an integer random 2-D array that contains 2 rows with random 2 elements from 0 to 99")
+print(" generating an integer random 2-D array that " 
+"contains 2 rows with random 2 elements from 0 to 99")
 r_f_dd=random.rand(2,3)
 print(r_f_dd)
 
@@ -57,3 +61,8 @@ dd=random.randint(random_num_from_d, size=((2,2)))
 print(dd)
 
 
+# CONCLUSION:
+print(random.randint(100, size = (2,2)))
+print(random.rand(3,2,1))
+
+print(random.choice(random.randint(100,200,size = 5), (2,2) ))

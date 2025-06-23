@@ -3,7 +3,7 @@ import numpy as np
 
 d=np.array([1,2,3,2,2,4,5])
 index=np.where(d==2)  #yani "d" m 2 jhan jhan bhi h us ka index bta do
-# print(index)
+print(index)
 
 # now we will find the indexes where the values are even
 # for i in d:

@@ -4,7 +4,7 @@ d=np.array([1,2,3,4,5])
 filter=[True,False,True,True,False]  #true valy elements filtered array m show hon gy
 # or false valy nhi hon gy
 filtered_array=d[filter] 
-# print(filtered_array)
+print(filtered_array)
 
 
 # make a filtered array with a given condition
