@@ -36,6 +36,9 @@ value=3.1678
 # print("rounding to 1 decimal point= ", np.around(valu))
 
 
+# !!!!!!!!!!!!!!!!!!!!   CEIL , FLOOR    !!!!!!!!!!!!!!!!!
+# BOTH SHIFT VALUE TO THE NEAREST WHOLE NUMBER
+
 # floor()  (it rounded off decimal to the nearest lower integer)
 # d=np.floor([-3.8788, 3.4839876])
 # print(d)  #ab -3 ka lower -4 h or 3.4839876 ka lower 3 h 

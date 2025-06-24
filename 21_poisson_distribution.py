@@ -21,8 +21,8 @@ print(d)
 # considering another example:
 # ek store m on average 3 customers ek minute m visit krty hn, ap btao k agly 10 
 # minutes m customers k any ki kia probability h?
-# customer=random.poisson(lam=3, size=10)
-# print(customer)
+customer=random.poisson(lam=3, size=10)
+print(customer)
 # sns.histplot(customer, kde=True)
 # plt.show()
 

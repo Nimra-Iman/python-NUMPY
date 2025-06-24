@@ -1,10 +1,20 @@
 import numpy as np
-from numpy import random
 
+a = np.array([1,2,3,4,5,6])
+a1 = np.array([1,2,3,4,5,6])
 
-# randint, rand, choice
+b= np.array([[1,2,3],[4,5,6]])
+b1= np.array([[1,2,3],[4,5,6]])
 
-# print(random.randint(100, size = (2,2)))
-# print(random.rand(3,2,1))
+c = np.array([[[1,2,3],[4,5,6]],
+              [[5,4,3],[1,2,3]]])
+c1 = np.array([[[1,2,3],[4,5,6]],
+              [[5,4,3],[1,2,3]]])
 
-print(random.choice(random.randint(100,200,size = 5), (2,2) ))
+new = np.concatenate((c,c1), axis = 0)
+# print(new)
+# n = np.stack((b,b1), axis = 0)
+n = np.dstack((b,b1))
+print(n)
+
+# [[[1,2,3] ,[1,2,3]],[[4,5,6],[4,5,6]]]
